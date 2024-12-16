@@ -74,3 +74,12 @@
 ::1 - - [11/Nov/2024:04:55:18 +0000] "GET /api/jobs HTTP/1.1" 200 2
 ::1 - - [13/Nov/2024:05:49:47 +0000] "GET /api/jobs HTTP/1.1" 200 2
 ::1 - - [13/Nov/2024:09:31:44 +0000] "GET /api/jobs HTTP/1.1" 200 2
+::1 - - [13/Dec/2024:06:01:33 +0000] "POST /api/auth/register HTTP/1.1" 201 243
+::1 - - [13/Dec/2024:06:02:11 +0000] "POST /api/auth/login HTTP/1.1" 200 424
+::1 - - [13/Dec/2024:06:04:12 +0000] "POST /api/auth/editor-profiles HTTP/1.1" 404 164
+::1 - - [13/Dec/2024:06:04:44 +0000] "POST /api/auth/editor-profiles HTTP/1.1" 404 164
+::1 - - [13/Dec/2024:06:05:37 +0000] "POST /api/auth/editor-profiles HTTP/1.1" 404 164
+::1 - - [13/Dec/2024:06:06:10 +0000] "POST /api/editor-profiles HTTP/1.1" 201 1738
+::1 - - [13/Dec/2024:06:12:45 +0000] "POST /api/editor-profiles/675bcdbde481b6644c032e87 HTTP/1.1" 404 184
+::1 - - [13/Dec/2024:06:13:03 +0000] "GET /api/editor-profiles/675bcdbde481b6644c032e87 HTTP/1.1" 401 45
+::1 - - [13/Dec/2024:06:13:25 +0000] "GET /api/editor-profiles/675bcdbde481b6644c032e87 HTTP/1.1" 200 1738

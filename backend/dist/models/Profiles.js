@@ -74,6 +74,9 @@ const EditiorProfileSchema = new mongoose_1.Schema({
             description: {
                 type: String,
             },
+            thumbnail: {
+                type: String,
+            },
             url: {
                 type: String,
             },
